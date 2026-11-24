@@ -1,9 +1,13 @@
 
 # WooCommerce Auto Discount
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![WooCommerce](https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white)
+[![PHP Code Validation](https://github.com/andrewforest-dev/woocommerce-auto-discount/actions/workflows/php-validation.yml/badge.svg?branch=main)](https://github.com/andrewforest-dev/woocommerce-auto-discount/actions/workflows/php-validation.yml)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![WooCommerce](https://img.shields.io/badge/WooCommerce-96588A?style=flat-square&logo=woocommerce&logoColor=white)
+![Unit Tests](https://img.shields.io/badge/Unit_Tests-9_Passed-brightgreen)
+![Status](https://img.shields.io/badge/Status-Prototype-orange)
+
 
 ## Project Overview
 

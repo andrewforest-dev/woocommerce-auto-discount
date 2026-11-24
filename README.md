@@ -21,7 +21,7 @@ Manually activating and deactivating promotional discounts can lead to operation
 
 This project aims to automate recurring promotional campaigns using PHP and WooCommerce hooks.
 
-## Planned Features
+## Features Under Validation
 
 - Automatic monthly discount activation.
 - 15% discount on the 15th of every month.
@@ -40,19 +40,29 @@ This project aims to automate recurring promotional campaigns using PHP and WooC
 - Conditional Logic
 - Date and Time Management
 
+
 ## Business Logic
 
 | Day of the month | Discount | Coupons |
 |---|---|---|
-| 1 - 14 | Regular prices | Enabled |
-| 15 | 15% discount | Disabled |
-| 16 - 31 | Regular prices | Enabled |
+| 1 - 14 | Existing prices | Default configuration |
+| 15 | 15% discount or lower existing price | Disabled |
+| 16 - 31 | Existing prices | Default configuration |
 
-## Planned Project Structure
+
+## Project Structure
 
     woocommerce-auto-discount/
+    ├── .github/
+    │   └── workflows/
+    │       └── php-validation.yml
+    ├── tests/
+    │   └── discount-test.php
     ├── README.md
+    ├── INSTALLATION.md
+    ├── TESTING.md
     └── woocommerce-auto-discount.php
+
 
 
 ## Development Status

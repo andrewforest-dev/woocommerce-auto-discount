@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
-        
+
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -35,3 +35,9 @@ jobs:
 
       - name: Validate PHP syntax
         run: php -l woocommerce-auto-discount.php
+
+      - name: Validate test file syntax
+        run: php -l tests/discount-test.php
+
+      - name: Run automated unit tests
+        run: php tests/discount-test.php
